@@ -23,22 +23,19 @@ This system is designed to:
 
 To begin, run the `Face_acquisition_and_detection.py` script. This will prompt you to enter a name prefix for the images, which will then be saved in an organized folder structure for each individual.
 
-```bash
-python Face_acquisition_and_detection.py
+```python Face_acquisition_and_detection.py```
 
 ### 2. Training the Model
 
 Once you have captured a sufficient number of images, use the `create_encodings.py` script to train the face recognition model. This script will process the images and save the trained model for future use.
 
-```bash
-python create_encodings.py
+```python create_encodings.py```
 
 ### 3. Recognizing Faces and Marking Attendance
 
 With the model trained, run the `Face_recognition.py` script to start the attendance system. This will open a video feed, recognize faces in real-time, and log attendance into a CSV file.
 
-```bash
-python Face_recognition.py
+```python Face_recognition.py```
 
 
 ## Project Structure
